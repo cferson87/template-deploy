@@ -1,0 +1,62 @@
+/**
+ * App component styles
+ * Using OuterBox Design branding
+ */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #0f3542;
+  color: white;
+  padding: 40px 0;
+  box-shadow: 0 0.625rem 1.25rem rgba(0,0,0,0.1);
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.App-header .subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.App-main {
+  flex: 1;
+  padding: 40px 0;
+}
+
+.App-footer {
+  background-color: #0f3542;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.App-footer p {
+  color: #cbd5e0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .App-header .subtitle {
+    font-size: 1rem;
+  }
+
+  .App-main {
+    padding: 30px 0;
+  }
+}

@@ -1,0 +1,105 @@
+/**
+ * TemplateSelector Component Styles
+ */
+
+.template-selector {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.template-selector h2 {
+  color: #0f3542;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.template-selector .description {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 1.05rem;
+}
+
+.helper-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.helper-text.error {
+  color: #c33;
+}
+
+.form-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.form-actions .btn {
+  min-width: 200px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selection-summary {
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #f1f1f1;
+  border-radius: 0.625rem;
+  border-left: 4px solid #4eaf3f;
+}
+
+.selection-summary h3 {
+  color: #0f3542;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.summary-item {
+  padding: 8px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.summary-item strong {
+  color: #01668c;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 80px;
+}
+
+/* Loading spinner inside button */
+.btn .loading {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+}
+
+@media (max-width: 768px) {
+  .template-selector h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .form-actions .btn {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .selection-summary {
+    padding: 20px;
+  }
+
+  .summary-item strong {
+    display: block;
+    margin-bottom: 4px;
+  }
+}
